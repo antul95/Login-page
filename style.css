@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    max-width: 400px;
+    height: 470px;
+    max-height: 470px;
+    border-radius: 50px;
+    display: flex;
+    background-color: rgb(240, 236, 231);
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.form-box {
+    position: absolute;
+    padding: 50px 40px;
+}
+
+h1 {
+    font-size: 50px;
+
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+.input-box {
+    margin-top: 40px;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+}
+
+.input-text {
+    width: 95%;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding-left: 10px;
+    border-bottom: 2px solid black;
+    background: transparent;
+}
+
+.button-group {
+    position: relative;
+    width: 300px;
+    height: 30px;
+    margin-top: 50px;
+
+}
+
+button {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    margin-left: 80px;
+    border-radius: 50px;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    font-size: 22px;
+}
+.footer{
+    margin-top: 20px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer a{
+    text-decoration: none;
+    cursor: pointer;
+}
